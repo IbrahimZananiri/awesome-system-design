@@ -24,4 +24,4 @@ Let’s design the architecture for a ride-hailing system like Uber or Lyft!
 
 ## Proposals
 
-No proposals submitted yet.
+- [IbrahimZananiri's Proposal: Design Uber, a ride-hailing system](proposals/IbrahimZananiri)
