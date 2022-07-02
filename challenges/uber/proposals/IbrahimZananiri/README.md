@@ -167,3 +167,8 @@ In their fulfillment services, Demand and Supply, Uber typically employed RingPo
 As we’ve seen from this timeline, as we delve into massively growing scale and complexity of business problems, the plight for achieving highly-scalable architecture is a fascinating, ever-growing challenge.
 
 As we’ve seen from this timeline, as we delve into massively growing scale and complexity of business problems, the plight for achieving highly-scalable architecture is a fascinating, ever-growing challenge.
+
+
+### Source
+This proposal first appeared on Ibrahim's post:
+[Design Uber Ride-Hailing System](https://medium.com/@ibrahim.zananiri/design-uber-ride-hailing-system-6b25978f96a3)

@@ -148,6 +148,11 @@ Event sourcing is pretty similar to how accountants do their work. This architec
 ### Remember
 The “perfect” architecture for a given problem does not exist. In practice, System Architecture is an open activity that you’d iterate on continuously as the needs of your platform evolve and learnings from earlier design are accrued.
 
+### Source
+This proposal first appeared on Ibrahim's post:
+[Design Amazon E-Commerce System](https://medium.com/@ibrahim.zananiri/design-amazon-e-commerce-system-7f2dd57637bb)
+
+
 ---
 
 ## Submit Your Proposal
