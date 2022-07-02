@@ -2,10 +2,10 @@
 
 ## Overview
 Are you an aspiring system design athlete?
-This is the space for you to learn (and contribute) knowledge on core system design concepts, and learn from system design challenges and community-contributed solutions.
+This is the space for you to learn (and contribute) knowledge on core system design concepts, and learn from system design challenges and community-contributed proposals.
 
 ## System Design Challenges
-Explore system design challenges and vetted solutions contributed by the community. You too can share your solution, get it reviewed by the expert team, then have it published! 
+Explore system design challenges and reviewed proposals contributed by the community. You too can share your design proposal, get it reviewed by the expert team, and have it published! 
 
 ### Top Challenges
 - [Design Amazon, an e-commerce system](challenges/amazon)
