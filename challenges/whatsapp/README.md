@@ -2,4 +2,4 @@
 
 ## Challenge
 
-## Solutions
+## Proposals
