@@ -12,7 +12,7 @@ Explore system design challenges and vetted solutions contributed by the communi
 - [Design Uber, a ride-hailing service](challenges/uber)
 - [Design WhatsApp, a mobile messaging service](challenges/whatsapp)
 
-[Browse more **system design challenges** →](concepts)
+[Browse more **system design challenges** →](challenges)
 
 ## Core Concepts
 Learn core concepts of distibuted systems, for example:
