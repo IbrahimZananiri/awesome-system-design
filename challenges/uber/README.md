@@ -21,7 +21,22 @@ Let’s design the architecture for a ride-hailing system like Uber or Lyft!
 - 1 million concurrent users
 - 25 million trips daily
 
+# Proposal
 
-## Proposals
+> **EDIT ME**: Your design proposal goes here!\
+> Use this file as the template for your proposal.
 
-- [IbrahimZananiri's Proposal: Design Uber, a ride-hailing system](proposals/IbrahimZananiri)
+# Featured Proposals
+
+- [IbrahimZananiri's Proposal: Design Uber, a ride-hailing system](/challenges//uber/proposals/IbrahimZananiri)
+
+---
+
+# Submit Your Design Proposal
+
+1. Fork repo
+2. Create your `proposals/{GITHUB_USERNAME}/` directory
+3. Write your proposal in README.md
+4. Submit a PR for review!
+
+More details on [/challenges/CONTRIBUTING.md](/challenges/CONTRIBUTING.md)

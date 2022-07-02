@@ -10,15 +10,20 @@ Sellers list products and availability. Shoppers search, shop, purchase and rece
 ### Scale
 The platform is expected to hold 100 million unique SKUs, 300 million registered customers, 1.5 million sellers, and handle 1 million orders on an average day.
 
-## Proposals
+# Proposal
+> **EDIT ME**: Your design proposal goes here!\
+> Use this file as the template for your proposal.
 
-- [IbrahimZananiri's Proposal: Design Amazon, an e-commerce system](proposals/IbrahimZananiri)
+# Featured Proposals
+- [IbrahimZananiri's Proposal: Design Amazon, an e-commerce system](/challenges/amazon/proposals/IbrahimZananiri)
 
-## Submit Your Proposal
+---
 
-Simply, create a PR with you proposal.
+# Submit Your Design Proposal
 
-1. Create your `proposals/{YOUR_GITHUB_USERNAME}/` directory
-2. Write your proposal in `README.md` under that
+1. Fork repo
+2. Create your `proposals/{GITHUB_USERNAME}/` directory
+3. Write your proposal in README.md
+4. Submit a PR for review!
 
-For images, create `images/` under your directory and place your images under that.
+More details on [/challenges/CONTRIBUTING.md](/challenges/CONTRIBUTING.md)

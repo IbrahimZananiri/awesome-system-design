@@ -172,3 +172,14 @@ As we’ve seen from this timeline, as we delve into massively growing scale and
 ### Source
 This proposal first appeared on Ibrahim's post:
 [Design Uber Ride-Hailing System](https://medium.com/@ibrahim.zananiri/design-uber-ride-hailing-system-6b25978f96a3)
+
+---
+
+# Submit Your Design Proposal
+
+1. Fork repo
+2. Create your `proposals/{GITHUB_USERNAME}/` directory
+3. Write your proposal in README.md
+4. Submit a PR for review!
+
+More details on [/challenges/CONTRIBUTING.md](/challenges/CONTRIBUTING.md)

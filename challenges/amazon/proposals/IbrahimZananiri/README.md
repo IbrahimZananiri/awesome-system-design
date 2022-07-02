@@ -155,11 +155,11 @@ This proposal first appeared on Ibrahim's post:
 
 ---
 
-## Submit Your Proposal
+# Submit Your Design Proposal
 
-Create a PR with you proposal.
+1. Fork repo
+2. Create your `proposals/{GITHUB_USERNAME}/` directory
+3. Write your proposal in README.md
+4. Submit a PR for review!
 
-1. Create your `proposals/{YOUR_GITHUB_USERNAME}/` directory
-2. Write your proposal in README.md under that
-
-For images, create `images/` under your folder and place your images under that.
+More details on [/challenges/CONTRIBUTING.md](/challenges/CONTRIBUTING.md)
