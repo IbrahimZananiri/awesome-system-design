@@ -43,7 +43,7 @@ Uber utilizes what they call in their Engineering blog a [Domain-Oriented Micros
 ### Ground rules of Uber’s Domain-Oriented Microservice Architecture
 
 1. **Domain-oriented functionalities**: Rather than orienting around singular microservices, Uber orients around groupings of related microservices, called Domains.
-Layer Design: Uber creates layered groups of domains. The layer that the domain belongs to establishes what dependencies the microservices within that domain are allowed to take on.
+2. Layer Design: Uber creates layered groups of domains. The layer that the domain belongs to establishes what dependencies the microservices within that domain are allowed to take on.
 3. **Single interface of domain access**: Uber exposes clean interfaces for domains that are treated as single points of access into the domain.
 4. **Domain decoupling**: Each domain should be agnostic and independent of other domains. No hard-coding in domain code or data models to enable extended functionality. Instead, Uber provides extension architecture to support well-defined and reusable extension points for a given domain.
 
@@ -129,8 +129,7 @@ Addressing scalability of such a large-scale system requires an intricate tradeo
 
 
 #### Proximity-Influenced Matching of Demand with Supply
-Uber clearly matches available service-providers with nearby service seekers.
-They do this very promptly, efficiently, and concurrently for a large scale of traffic.
+Uber clearly matches available service-providers with nearby service-seekers. They do this very promptly, efficiently, and concurrently for a large scale of traffic.
 
 To be able to do that, Uber actively maintains and indexes location of participants, and to determine candidate service providers in proximity of a given demand unit, Uber may utilize one of the following geolocation proximity solutions.
 
@@ -167,7 +166,6 @@ In their fulfillment services, Demand and Supply, Uber typically employed RingPo
 - **[NewSQL](https://en.wikipedia.org/wiki/NewSQL)** solution for getting transactional capabilities while also maintaining horizontal scalability and availability. Uber ended up utilizing Google Cloud Spanner as the primary storage engine for Uber’s fulfillment services, which run in Uber’s operational regions and call Google Cloud to access Cloud Spanner.
 - **Transaction Coordinator** exposed through a high-level API that abstracts away transactional consistency efforts.
 - **[Statecharts](https://statecharts.dev/)** to describe fulfillment entities’ lifecycles as clear, well-defined state machines.
-As we’ve seen from this timeline, as we delve into massively growing scale and complexity of business problems, the plight for achieving highly-scalable architecture is a fascinating, ever-growing challenge.
 
 As we’ve seen from this timeline, as we delve into massively growing scale and complexity of business problems, the plight for achieving highly-scalable architecture is a fascinating, ever-growing challenge.
 
