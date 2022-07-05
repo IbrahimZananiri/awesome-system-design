@@ -36,7 +36,8 @@ Listing a few core entities in a ride-hailing system are:
 - Trips storage requirement = 10kb * 25m * 360 days * 5 years = 419 TB
 - Combined user storage: 510m * 5kb = ~2.5 TB
 
-## Uber Architecture
+## Uber Architecture: Curiosities satisfied from Uber's Engineering Block
+
 Uber utilizes what they call in their Engineering blog a [Domain-Oriented Microservice Architecture](https://eng.uber.com/microservice-architecture/), behind a layered architecture.
 
 ### Ground rules of Uber’s Domain-Oriented Microservice Architecture
@@ -77,7 +78,7 @@ Provides common, core functionality that Uber can use for any product or use cas
 #### Infrastructure Layer
 Provides shared platform infrastructure components, like networking, streaming, storage, machine learning, AI infrastructure.
 
-## Proposed Design for Uber Architecture
+## Design for Uber Architecture
 Putting together the above ground rules, and thinking in DDD fashion about the Uber problem, we come to the following block diagram.
 
 ![Block Diagram of a Ride-hailing System Design](images/uber-block-diagram.png)
@@ -131,7 +132,7 @@ Addressing scalability of such a large-scale system requires an intricate tradeo
 Uber clearly matches available service-providers with nearby service seekers.
 They do this very promptly, efficiently, and concurrently for a large scale of traffic.
 
-To be able to do that, Uber actively maintains and indexes location of participants, and to determine candidate service providers in proximity of a given demand unit, Uber may utilize one of the following geolocation proximity solutions
+To be able to do that, Uber actively maintains and indexes location of participants, and to determine candidate service providers in proximity of a given demand unit, Uber may utilize one of the following geolocation proximity solutions.
 
 ![Quad Tree Map Representation](images/quad-tree-map.png)
 
@@ -145,6 +146,8 @@ Diagram: A Quad Tree represented by grid on a map. [Source](https://www.cs.tau.a
 ![Uber H3 Earth](images/uber-h3-earth.png)
 
 Diagram: Uber H3 enables users to partition the globe into hexagons for more accurate analysis. [Source](https://eng.uber.com/h3/)
+
+For more on the nearby places search topic, check the proposal [Geo-Proximity Searching](/challenges/nearby-places/proposals/IbrahimZananiri).
 
 ## Evolution of Uber Fulfillment Capabilities
 

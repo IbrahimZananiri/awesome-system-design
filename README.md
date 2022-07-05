@@ -19,7 +19,7 @@ Explore system design challenges and reviewed proposals contributed by the commu
 Learn core concepts of distibuted systems, for example:
 - High Availability
 - Load Balancing
-- Microservice
+- Microservices
 - CAP Theorem
 - Consistent Hashing
 - Domain-Driven Design
