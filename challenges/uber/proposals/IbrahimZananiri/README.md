@@ -173,7 +173,7 @@ As we’ve seen from this timeline, as we delve into massively growing scale and
 
 
 ### Source
-This proposal first appeared on Ibrahim's post:
+This post first appeared on Ibrahim's post:
 [Design Uber Ride-Hailing System](https://medium.com/@ibrahim.zananiri/design-uber-ride-hailing-system-6b25978f96a3)
 
 ---
