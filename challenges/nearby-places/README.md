@@ -17,7 +17,7 @@ How can you scale to hundreds of millions of places and concurrent requests?
 > Use this file as the template for your proposal.
 
 # Featured Proposals
-- [IbrahimZananiri's Proposal: Search Places Nearby](/challenges/amazon/proposals/IbrahimZananiri)
+- [IbrahimZananiri's Proposal: Search Places Nearby](proposals/IbrahimZananiri)
 
 ---
 
