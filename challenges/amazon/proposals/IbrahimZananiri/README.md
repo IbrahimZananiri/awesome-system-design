@@ -115,7 +115,10 @@ Key architectural decisions for the e-commerce system:
 Layered architecture a common architecture pattern. Components are grouped into layers, where each layer performs a specific role within the overall system.
 Each layer is isolated and independent of the other layers, having no knowledge of the inner workings of other layers in the system. Well-defined APIs are exposed to be used by, exclusively, the higher layers.
 
-![Layered Architecture](images/layered-architecture.png)
+```mermaid
+graph LR
+    pr(Presentation) --> ht(HTTP) --> ap(Application API) --> co(Core Domain Services) --> ds(Data Storage)
+```
 
 Figure: Layered Architecture with isolated layers communicating from left to right.
 
